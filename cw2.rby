@@ -1,0 +1,30 @@
+INCLUDE "prelude.rby".
+
+#### Q1 ####
+
+q1a = fst mult ; add. # type: <<x,y>,z>
+
+q1b = fst add ; add. # type: <<x,y>,z>
+
+
+#### Q2 ####
+
+# "What are the types for conjugate, append, and triangle?" 
+# 
+# Conj: P\Q = Q^~1 ; P ; Q. type:  
+#
+#
+#
+
+
+
+
+#### Q3 ####
+# Design  a block such that <x,<a>_n> ~ <<x,a>_n>
+
+q3 = var x a . (x,<a>) $rel (<x,a>).
+
+
+
+
+current = q3.
