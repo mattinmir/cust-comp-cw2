@@ -4,7 +4,9 @@ INCLUDE "prelude.rby".
 
 q1a = fst mult ; add. # type: <<x,y>,z>
 
-q1b = fst add ; add. # type: <<x,y>,z>
+# rsh to get into the form <<x,y>,z> so we can put x and y 
+# into the left domain of the first addr using fst
+q1b = rsh ; fst add ; add. # type: <x,<y,z>>
 
 
 #### Q2 ####
